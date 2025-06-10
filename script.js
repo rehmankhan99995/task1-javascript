@@ -26,33 +26,48 @@
 
 // program 1 
 
-// var askname = prompt('')
-//   for (let i = 0; i < askname.length; i++) {
-//     console.log(askname[i]);
+//  var askname = prompt('')
+//    for (let i = 0; i < askname.length; i++) {
+//      console.log(askname[i]);
     
-//   }
+//    }
 
 // program 2 using if else 
 
-// var cities = "Karachi,Lahore,Islamabad"
+//  var cities = ["karachi","lahore","islamabad", "peshawar", "quetta", "multan", "faisalabad", "hyderabad", "gujranwala", "sialkot"];
 
-// var checkcities = prompt("enter your city")
-
-// if (cities.includes(checkcities)) {
-// 	alert(checkcities + " is in the list of cities.");
-// } else {
-// 	alert(checkcities + " is not in the list of cities.");
-// }
+//  var checkcities = prompt("enter your city").toLowerCase()
+  
+//  for (let i = 0; i < cities.length; i++) {
+//     //  console.log(cities[i]);
+//      if (cities[i] == checkcities) {
+//           console.log(checkcities + " is in the list of cities.");
+//      } else {
+        
+//      }
+//     }
+    
+    
 
 // program 3 
-var fe = 5;
+var fe = prompt("Enter a number to print the pattern");
+fe= parseInt(fe); 
+// for(let i = fe; i >=1; i--){
+//  let star = "";
+//  for (let j = 1; j<=i; j++){
+//     star += "*";
+//  }   
+// console.log(star)
 
-for (let i = fe; i >1; i--){
-console.log("*".repeat(i))  
+// }
+
+for(let i = 1; i <=fe; i++){
+ let star = "";
+ for (let j = 1; j<=i; j++){
+    star += "*";
+ }   
+console.log(star)
+
 }
 
-
-
- for (let i = 2; i <= fe; i++){
- console.log("*".repeat(i))  
- }
+ 
